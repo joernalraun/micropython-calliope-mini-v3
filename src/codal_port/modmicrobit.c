@@ -163,7 +163,7 @@ STATIC mp_obj_t microbit_scale(size_t n_args, const mp_obj_t *pos_args, mp_map_t
 STATIC MP_DEFINE_CONST_FUN_OBJ_KW(microbit_scale_obj, 0, microbit_scale);
 
 STATIC const mp_rom_map_elem_t microbit_module_globals_table[] = {
-    { MP_ROM_QSTR(MP_QSTR___name__), MP_ROM_QSTR(MP_QSTR_microbit) },
+    { MP_ROM_QSTR(MP_QSTR___name__), MP_ROM_QSTR(MP_QSTR_calliopemini) },
 
     { MP_ROM_QSTR(MP_QSTR_Image), (mp_obj_t)&microbit_image_type },
     { MP_ROM_QSTR(MP_QSTR_Sound), MP_ROM_PTR(&microbit_sound_type) },
@@ -209,9 +209,13 @@ STATIC const mp_rom_map_elem_t microbit_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_pin13), MP_ROM_PTR(&microbit_p13_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin14), MP_ROM_PTR(&microbit_p14_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin15), MP_ROM_PTR(&microbit_p15_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin16), MP_ROM_PTR(&microbit_p16_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin19), MP_ROM_PTR(&microbit_p19_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin20), MP_ROM_PTR(&microbit_p20_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin_A1RX), MP_ROM_PTR(&microbit_pin_a1rx_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin_A1TX), MP_ROM_PTR(&microbit_pin_a1tx_obj) },
+    // { MP_ROM_QSTR(MP_QSTR_pin16), MP_ROM_PTR(&microbit_p16_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin18), MP_ROM_PTR(&microbit_p18_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin_A0SCL), MP_ROM_PTR(&microbit_pin_a0scl_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin_A0SDA), MP_ROM_PTR(&microbit_pin_a0sda_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin_RGB), MP_ROM_PTR(&microbit_pin_rgb_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin_logo), MP_ROM_PTR(&microbit_pin_logo_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin_speaker), MP_ROM_PTR(&microbit_pin_speaker_obj) },
 };

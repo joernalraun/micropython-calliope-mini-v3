@@ -105,11 +105,14 @@ extern const struct _microbit_pin_obj_t microbit_p12_obj;
 extern const struct _microbit_pin_obj_t microbit_p13_obj;
 extern const struct _microbit_pin_obj_t microbit_p14_obj;
 extern const struct _microbit_pin_obj_t microbit_p15_obj;
-extern const struct _microbit_pin_obj_t microbit_p16_obj;
-extern const struct _microbit_pin_obj_t microbit_p19_obj;
-extern const struct _microbit_pin_obj_t microbit_p20_obj;
+extern const struct _microbit_pin_obj_t microbit_pin_a1rx_obj;
+extern const struct _microbit_pin_obj_t microbit_pin_a1tx_obj;
+extern const struct _microbit_pin_obj_t microbit_p18_obj;
+extern const struct _microbit_pin_obj_t microbit_pin_a0scl_obj;
+extern const struct _microbit_pin_obj_t microbit_pin_a0sda_obj;
 extern const struct _microbit_pin_obj_t microbit_pin_logo_obj;
 extern const struct _microbit_pin_obj_t microbit_pin_speaker_obj;
+extern const struct _microbit_pin_obj_t microbit_pin_rgb_obj;
 
 extern const struct _microbit_i2c_obj_t microbit_i2c_obj;
 extern const struct _microbit_uart_obj_t microbit_uart_obj;

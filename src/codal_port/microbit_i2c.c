@@ -46,8 +46,8 @@ STATIC mp_obj_t microbit_i2c_init(mp_uint_t n_args, const mp_obj_t *pos_args, mp
     mp_arg_parse_all(n_args - 1, pos_args + 1, kw_args, MP_ARRAY_SIZE(allowed_args), allowed_args, args);
 
     // Get pins.
-    const microbit_pin_obj_t *sda = &microbit_p20_obj;
-    const microbit_pin_obj_t *scl = &microbit_p19_obj;
+    const microbit_pin_obj_t *sda = &microbit_pin_a0sda_obj;
+    const microbit_pin_obj_t *scl = &microbit_pin_a0scl_obj;
     if (args[ARG_sda].u_obj != mp_const_none) {
         sda = microbit_obj_get_pin(args[ARG_sda].u_obj);
     }

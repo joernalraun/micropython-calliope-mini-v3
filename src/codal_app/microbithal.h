@@ -57,13 +57,16 @@ extern "C" {
 #define MICROBIT_HAL_PIN_P14    (14)
 #define MICROBIT_HAL_PIN_P15    (15)
 #define MICROBIT_HAL_PIN_P16    (16)
-#define MICROBIT_HAL_PIN_P19    (17)
-#define MICROBIT_HAL_PIN_P20    (18)
+#define MICROBIT_HAL_PIN_P17    (17)
+#define MICROBIT_HAL_PIN_P18    (18)
+#define MICROBIT_HAL_PIN_P19    (19)
+#define MICROBIT_HAL_PIN_P20    (20)
 #define MICROBIT_HAL_PIN_FACE   (19)
 #define MICROBIT_HAL_PIN_SPEAKER (20)
 #define MICROBIT_HAL_PIN_USB_TX (30)
 #define MICROBIT_HAL_PIN_USB_RX (31)
 #define MICROBIT_HAL_PIN_MIXER  (33)
+#define MICROBIT_HAL_PIN_RGB    (51) //23 connects runmic as in microbitIO.cpp
 
 // These match the micro:bit v1 constants.
 #define MICROBIT_HAL_PIN_PULL_UP (0)

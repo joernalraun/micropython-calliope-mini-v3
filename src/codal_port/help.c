@@ -27,7 +27,7 @@
 #include "py/builtin.h"
 
 const char microbit_help_text[] =
-    "Welcome to MicroPython on the micro:bit!\n"
+    "Welcome to MicroPython on the calliope mini!\n"
     "\n"
     "Try these commands:\n"
     "  display.scroll('Hello')\n"
