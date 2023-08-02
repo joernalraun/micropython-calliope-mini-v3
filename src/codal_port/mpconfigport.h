@@ -119,7 +119,7 @@
 #endif
 
 #define MICROBIT_RELEASE "2.1.1"
-#define MICROBIT_BOARD_NAME "calliope mini"
+#define MICROBIT_BOARD_NAME "Calliope mini"
 #define MICROPY_HW_BOARD_NAME MICROBIT_BOARD_NAME " v" MICROBIT_RELEASE
 #define MICROPY_HW_MCU_NAME "nRF52833"
 
@@ -145,7 +145,7 @@ extern const struct _mp_obj_module_t utime_module;
     { MP_ROM_QSTR(MP_QSTR_log), MP_ROM_PTR(&log_module) }, \
     { MP_ROM_QSTR(MP_QSTR_love), MP_ROM_PTR(&love_module) }, \
     { MP_ROM_QSTR(MP_QSTR_machine), MP_ROM_PTR(&machine_module) }, \
-    { MP_ROM_QSTR(MP_QSTR_microbit), MP_ROM_PTR(&microbit_module) }, \
+    { MP_ROM_QSTR(MP_QSTR_calliopemini), MP_ROM_PTR(&microbit_module) }, \
     { MP_ROM_QSTR(MP_QSTR_music), MP_ROM_PTR(&music_module) }, \
     { MP_ROM_QSTR(MP_QSTR_os), MP_ROM_PTR(&os_module) }, \
     { MP_ROM_QSTR(MP_QSTR_power), MP_ROM_PTR(&power_module) }, \

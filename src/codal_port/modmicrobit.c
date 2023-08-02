@@ -209,15 +209,19 @@ STATIC const mp_rom_map_elem_t microbit_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_pin13), MP_ROM_PTR(&microbit_p13_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin14), MP_ROM_PTR(&microbit_p14_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin15), MP_ROM_PTR(&microbit_p15_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin_A1RX), MP_ROM_PTR(&microbit_pin_a1rx_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin_A1TX), MP_ROM_PTR(&microbit_pin_a1tx_obj) },
-    // { MP_ROM_QSTR(MP_QSTR_pin16), MP_ROM_PTR(&microbit_p16_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin18), MP_ROM_PTR(&microbit_p18_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin_A0SCL), MP_ROM_PTR(&microbit_pin_a0scl_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin_A0SDA), MP_ROM_PTR(&microbit_pin_a0sda_obj) },
-    { MP_ROM_QSTR(MP_QSTR_pin_RGB), MP_ROM_PTR(&microbit_pin_rgb_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin16), MP_ROM_PTR(&microbit_p16_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin19), MP_ROM_PTR(&microbit_p19_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin20), MP_ROM_PTR(&microbit_p20_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin_logo), MP_ROM_PTR(&microbit_pin_logo_obj) },
     { MP_ROM_QSTR(MP_QSTR_pin_speaker), MP_ROM_PTR(&microbit_pin_speaker_obj) },
+    { MP_ROM_QSTR(MP_QSTR_pin17), MP_ROM_PTR(&microbit_p17_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin18), MP_ROM_PTR(&microbit_p18_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_RGB), MP_ROM_PTR(&microbit_pin_RGB_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_M_A_IN1), MP_ROM_PTR(&microbit_pin_M_A_IN1_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_M_A_IN2), MP_ROM_PTR(&microbit_pin_M_A_IN2_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_M_B_IN1), MP_ROM_PTR(&microbit_pin_M_B_IN1_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_M_B_IN2), MP_ROM_PTR(&microbit_pin_M_B_IN2_obj) }, // Calliope Added
+    { MP_ROM_QSTR(MP_QSTR_pin_M_MODE), MP_ROM_PTR(&microbit_pin_M_MODE_obj) }, // Calliope Added
 };
 
 STATIC MP_DEFINE_CONST_DICT(microbit_module_globals, microbit_module_globals_table);
