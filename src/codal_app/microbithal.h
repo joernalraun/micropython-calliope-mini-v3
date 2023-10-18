@@ -63,7 +63,7 @@ extern "C" {
 #define MICROBIT_HAL_PIN_SPEAKER (20)
 #define MICROBIT_HAL_PIN_USB_TX (30)
 #define MICROBIT_HAL_PIN_USB_RX (31)
-#define MICROBIT_HAL_PIN_MIXER  (33)
+#define MICROBIT_HAL_PIN_MIXER  (41)
 #define MICROBIT_HAL_PIN_P17    (33) // Calliope added
 #define MICROBIT_HAL_PIN_P18    (34) // Calliope added
 #define MICROBIT_HAL_PIN_RGB    (35) // Calliope added
