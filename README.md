@@ -1,4 +1,4 @@
-MicroPython on the Calliope mini via CODAL
+MicroPython on the Calliope mini via CODAL (TigerJython Build)
 ======================================
 
 This is a port of MicroPython to the Calliope mini V3 which uses the CODAL as the

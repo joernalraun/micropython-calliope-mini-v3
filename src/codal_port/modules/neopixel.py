@@ -1,7 +1,7 @@
 # NeoPixel driver for MicroPython
 # MIT license; Copyright (c) 2016-2020 Damien P. George
 
-from calliopemini import ws2812_write
+from calliop_emini import ws2812_write
 
 
 class NeoPixel:
